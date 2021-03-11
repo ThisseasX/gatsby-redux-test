@@ -1,0 +1,32 @@
+{
+  "name": "gatsby-redux-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Testing redux with gatsby.",
+  "author": "Thisseas X",
+  "homepage": "https://thisseasx.github.io/gatsby-redux-test",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "predeploy": "gatsby clean && gatsby build --prefix-paths",
+    "deploy": "gh-pages -d public"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.5.0",
+    "gatsby": "^3.0.4",
+    "gatsby-plugin-react-redux": "^1.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
