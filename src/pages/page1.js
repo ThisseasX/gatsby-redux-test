@@ -2,9 +2,11 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { incA, selectA } from '../state/slice';
 import { Link } from 'gatsby';
+import { lorem1 } from '../junk';
 
 const Page1 = props => {
   console.log({ Page1_props: props });
+  lorem1();
 
   return (
     <div>
